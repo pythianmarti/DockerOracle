@@ -16,7 +16,7 @@ sh buildDockerImage.sh -v 12.1.3.0 -s
 
 4. Create the container runtime for OHS 12.1.3
 
-docker run -itd --name=SabreOHS oracle/ohs:12.1.3.0
+docker run -itd --name=OHS oracle/ohs:12.1.3.0
 
 5. Login to container and ensure all processes are up
 
